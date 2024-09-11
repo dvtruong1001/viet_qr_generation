@@ -1,0 +1,30 @@
+{
+    "name": "dvtruong/viet_qr_generator",
+    "description": "VietQR generator by following vietqr specification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dang Van Truong",
+            "email": "dvtmod@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"dvtruong\\viet_qr_generator\\": "src/"}
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "dvtruong\\viet_qr_generator\\tests\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.0",
+        "vgplay/qr-code": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
